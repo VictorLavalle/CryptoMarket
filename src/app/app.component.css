@@ -84,6 +84,16 @@ a:visited {
     }
     tbody {
         overflow-x: hidden;
-        max-height: 400px;
+        max-height: 420px;
     }
+
+    tbody tr .extraValue{
+        display: none;
+    }
+
+    thead tr th:last-child,
+    thead tr th:nth-child(7) {
+        display: none;
+    }
+
 }
