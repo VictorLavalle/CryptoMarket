@@ -84,6 +84,7 @@ a:visited {
     }
     tbody {
         overflow-x: hidden;
+        overflow-y: scroll;
         max-height: 420px;
     }
 
