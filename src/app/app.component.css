@@ -84,5 +84,6 @@ a:visited {
     }
     tbody {
         overflow-x: hidden;
+        max-height: 400px;
     }
 }
