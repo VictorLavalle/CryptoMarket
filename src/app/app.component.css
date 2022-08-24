@@ -91,8 +91,15 @@ a:visited {
         display: none;
     }
 
+
     thead tr th:last-child,
-    thead tr th:nth-child(7) {
+    thead tr th:nth-child(1),
+    thead tr th:nth-child(6),
+    thead tr th:nth-child(7),
+    tbody tr td:first-child,
+    tbody tr td:last-child,
+    tbody tr td:nth-child(6),
+    tbody tr td:nth-child(5){
         display: none;
     }
 
