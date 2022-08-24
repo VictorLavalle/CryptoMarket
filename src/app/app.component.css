@@ -1,0 +1,88 @@
+.body {
+    font-family: "Roboto", sans-serif;
+    background: #081729 !important;
+}
+
+.container {
+    margin: 1rem auto;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.title,
+table {
+    text-align: center;
+}
+
+.searchBar {
+    margin: 1rem auto;
+    width: 50%;
+}
+
+.searchBar input {
+    text-align: left !important;
+    border: 2px solid rgba(36, 34, 34, 0.637);
+    border-radius: 10px;
+}
+
+.searchBar input:focus {
+    border-color: #4caf50;
+}
+
+tbody {
+    display: block;
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead {
+    width: calc(100% - 1em)
+}
+
+
+footer {
+    font-size: .8rem;
+    margin: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(221, 221, 221);
+}
+
+.logo-git {
+    width: 15px;
+    height: 15px;
+    filter: invert(10);
+}
+
+
+.linkedin:hover {
+    color: #2cd131ea;
+}
+
+a:link,
+a:visited {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+        position: relative;
+    }
+    tbody {
+        overflow-x: hidden;
+    }
+}
